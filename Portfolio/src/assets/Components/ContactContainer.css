@@ -1,0 +1,55 @@
+.mainContainer {
+    position: absolute;
+    color: azure;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.inputBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputBox input {
+    width: 320px;
+    height: 40px;
+    padding-inline: 8px;
+    color: #ffff;
+    margin-block: 10px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    border-bottom: 3px solid #e8b00a;
+    background-color: transparent
+}
+
+.message {
+    margin-top: 20px;
+
+}
+
+.message textarea {
+    resize: none;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid #e8b00a;
+    background-color: transparent;
+    color: #ffff;
+    font-size: 16px;
+}
+
+.btn {
+    margin-top: 20px;
+    width: 100px;
+    text-align: center;
+    margin-inline: 0px;
+
+}
+
+.btn a {
+    color: black;
+
+}

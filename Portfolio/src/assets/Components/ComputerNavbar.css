@@ -1,0 +1,41 @@
+.navContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #e8b00a;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    z-index: 5 !important;
+}
+
+.logo h2 {
+    color: black;
+}
+
+.navOptions {
+    margin-right: 30px;
+}
+
+.navOptions a {
+    color: rgb(255, 255, 255);
+    background-color: #090909;
+    padding: 4px 28px;
+    font-size: 18px;
+    margin-inline: 40px;
+    outline: none;
+    border: 1px solid rgb(253, 253, 253);
+    border-radius: 5px;
+    transition: all 0.3s;
+
+}
+
+.navOptions a:hover {
+    background-color: #ffff;
+    color: #090909;
+    border: none;
+    box-shadow: 0px 0px 10px 8px #e0bc4d;
+    border: 1px solid transparent;
+    outline: none;
+}
